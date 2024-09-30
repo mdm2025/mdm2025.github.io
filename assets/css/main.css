@@ -1644,9 +1644,6 @@ header > p {
   padding-bottom: 0.5em;
 }
 
-#header h1 a img {
-  width: 500px;
-}
 
 header.major {
   position: relative;
