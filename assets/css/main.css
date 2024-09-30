@@ -1644,8 +1644,8 @@ header > p {
   padding-bottom: 0.5em;
 }
 
-header > img {
-  height: 360;
+header > h1 > a > img {
+  width: 500px;
 }
 
 header.major {
