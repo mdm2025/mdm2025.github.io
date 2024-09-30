@@ -1644,6 +1644,10 @@ header > p {
   padding-bottom: 0.5em;
 }
 
+header > img {
+  height: 360;
+}
+
 header.major {
   position: relative;
   text-align: center;
