@@ -1,163 +1,180 @@
 <!DOCTYPE html>
 <html>
-<head>
-<title>Event Schedule</title>
-<style>
-  table {
-    border-collapse: collapse;
-    width: 100%;
-    font-family: sans-serif;
-  }
-  th, td {
-    border: 1px solid black;
-    padding: 8px;
-    text-align: center;
-    vertical-align: top;
-  }
-  th {
-    background-color: #f2f2f2;
-  }
-  .time-col {
-    font-weight: bold;
-    background-color: #e0e0e0;
-    width: 100px; /* Adjust as needed */
-  }
-  .day-header {
-    font-weight: bold;
-  }
-  .break {
-    background-color: #c6efce;
-  }
-  .lunch {
-    background-color: #ffeb9c;
-  }
-  .registration {
-    background-color: #ddebf7;
-  }
-  .keynote {
-     background-color: #fce4d6;
-  }
-  .other-event {
-      background-color: #ebf1f9;
-  }
-  .industry-day-col { }
-  .workshops-col { }
-  .adv-seminar-col { }
-  .research-session-col { }
 
-</style>
+<head>
+  <title>Event Schedule</title>
+  <style>
+    table {
+      border-collapse: collapse;
+      width: 100%;
+      font-family: sans-serif;
+    }
+
+    th,
+    td {
+      border: 1px solid black;
+      padding: 8px;
+      text-align: center;
+      vertical-align: top;
+    }
+
+    th {
+      background-color: #f2f2f2;
+    }
+
+    .time-col {
+      font-weight: bold;
+      background-color: #e0e0e0;
+      width: 100px;
+      /* Adjust as needed */
+    }
+
+    .day-header {
+      font-weight: bold;
+    }
+
+    .break {
+      background-color: #c6efce;
+    }
+
+    .lunch {
+      background-color: #ffeb9c;
+    }
+
+    .registration {
+      background-color: #ddebf7;
+    }
+
+    .keynote {
+      background-color: #fce4d6;
+    }
+
+    .other-event {
+      background-color: #ebf1f9;
+    }
+
+    .industry-day-col {}
+
+    .workshops-col {}
+
+    .adv-seminar-col {}
+
+    .research-session-col {}
+  </style>
 </head>
+
 <body>
 
-<table>
-  <thead>
-    <tr>
-      <th class="time-col"></th>
-      <th colspan="2" class="day-header">Day 1 (Mon, June 2)</th>
-      <th class="day-header">Day 2 (Tues, June 3)</th>
-      <th colspan="2" class="day-header">Day 3 (Wed, June 4)</th>
-      <th colspan="2" class="day-header">Day 4 (Thurs, June 5)</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td class="time-col">8:00</td>
-      <td colspan="2" class="registration">Registration Open</td>
-      <td class="registration">Registration Open</td>
-      <td colspan="2" class="registration">Registration Open</td>
-      <td colspan="2" class="registration">Registration Open</td>
-    </tr>
-    <tr>
-      <td class="time-col">8:45-9:00</td>
-      <td colspan="2"></td>
-      <td>Opening Remarks</td>
-      <td colspan="2"></td>
-      <td colspan="2"></td>
-    </tr>
-    <tr>
-      <td class="time-col">9:00-10:15</td>
-      <td colspan="2" class="keynote">Industry Day Keynote</td>
-      <td class="keynote">Keynote I</td>
-      <td colspan="2" class="keynote">Keynote II</td>
-      <td colspan="2" class="keynote">Keynote III</td>
-    </tr>
-    <tr>
-      <td class="time-col">10:15-10:45</td>
-      <td colspan="2" class="break">Coffee Break</td>
-      <td class="break">Coffee Break</td>
-      <td colspan="2" class="break">Coffee Break</td>
-      <td  colspan="2" class="break">Coffee Break</td>
-    </tr>
-    <tr>
-      <td class="time-col">10:45-12:15</td>
-      <td class="industry-day-col">Industry Day</td>
-      <td class="workshops-col">Workshops</td>
-      <td>Research Session 1: <br>Mobile Data Management and LLMs</td>
-      <td colspan="2">Industry Track</td>
-      <td colspan="2">Test of Time Award and Plenary Panel</td>
-    </tr>
-    <tr>
-      <td class="time-col">12:15-13:30</td>
-      <td colspan="2" class="lunch">Lunch</td>
-      <td class="lunch">Lunch</td>
-      <td colspan="2" class="lunch">Lunch</td>
-      <td colspan="2" class="lunch">Lunch/Mentoring Session</td>
-    </tr>
-    <tr>
-      <td class="time-col" rowspan="2">13:30-15:00</td>
-      <td class="industry-day-col" rowspan="2">Industry Day</td>
-      <td class="workshops-col" rowspan="2">Workshops</td>
-      <td rowspan="1">Invited Talk (Mobile/Edge)</td>
-      <td colspan="2">Invited Talk (Spatial AI)</td>
-      <td colspan="2">Invited Talk (Disaster Geoinformatics)</td>
-    </tr>
-    <tr>
-      <td> Research Session 2: <br>Mobile Computing and Systems</td>
-      <td class="adv-seminar-col">Adv Seminar 1</td>
-      <td class="research-session-col">Research Session 4: ML and Analytics for Trajectories</td>
-      <td>Research Session 5: Mobile Data Quality and Security</td>
-      <td>Doctoral Forum</td>
-    </tr>
-    <tr>
+  <table>
+    <thead>
+      <tr>
+        <th class="time-col"></th>
+        <th colspan="2" class="day-header">Day 1 (Mon, June 2)</th>
+        <th class="day-header">Day 2 (Tues, June 3)</th>
+        <th colspan="2" class="day-header">Day 3 (Wed, June 4)</th>
+        <th colspan="2" class="day-header">Day 4 (Thurs, June 5)</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td class="time-col">8:00</td>
+        <td colspan="2" class="registration">Registration Open</td>
+        <td class="registration">Registration Open</td>
+        <td colspan="2" class="registration">Registration Open</td>
+        <td colspan="2" class="registration">Registration Open</td>
+      </tr>
+      <tr>
+        <td class="time-col">8:45-9:00</td>
+        <td colspan="2"></td>
+        <td>Opening Remarks</td>
+        <td colspan="2"></td>
+        <td colspan="2"></td>
+      </tr>
+      <tr>
+        <td class="time-col">9:00-10:15</td>
+        <td colspan="2" class="keynote">Industry Day Keynote</td>
+        <td class="keynote">Keynote I</td>
+        <td colspan="2" class="keynote">Keynote II</td>
+        <td colspan="2" class="keynote">Keynote III</td>
+      </tr>
+      <tr>
+        <td class="time-col">10:15-10:45</td>
+        <td colspan="2" class="break">Coffee Break</td>
+        <td class="break">Coffee Break</td>
+        <td colspan="2" class="break">Coffee Break</td>
+        <td colspan="2" class="break">Coffee Break</td>
+      </tr>
+      <tr>
+        <td class="time-col">10:45-12:15</td>
+        <td class="industry-day-col">Industry Day</td>
+        <td class="workshops-col">Workshops</td>
+        <td>Research Session 1: <br>Mobile Data Management and LLMs</td>
+        <td colspan="2">Industry Track</td>
+        <td colspan="2">Test of Time Award and Plenary Panel</td>
+      </tr>
+      <tr>
+        <td class="time-col">12:15-13:30</td>
+        <td colspan="2" class="lunch">Lunch</td>
+        <td class="lunch">Lunch</td>
+        <td colspan="2" class="lunch">Lunch</td>
+        <td colspan="2" class="lunch">Lunch/Mentoring Session</td>
+      </tr>
+      <tr>
+        <td class="time-col" rowspan="2">13:30-15:00</td>
+        <td class="industry-day-col" rowspan="2">Industry Day</td>
+        <td class="workshops-col" rowspan="2">Workshops</td>
+        <td rowspan="1">Invited Talk (Mobile/Edge)</td>
+        <td colspan="2">Invited Talk (Spatial AI)</td>
+        <td colspan="2">Invited Talk (Disaster Geoinformatics)</td>
+      </tr>
+      <tr>
+        <td> Research Session 2: <br>Mobile Computing and Systems</td>
+        <td class="adv-seminar-col">Adv Seminar 1</td>
+        <td class="research-session-col">Research Session 4: ML and Analytics for Trajectories</td>
+        <td>Research Session 5: Mobile Data Quality and Security</td>
+        <td>Doctoral Forum</td>
+      </tr>
+      <tr>
 
-      <td class="time-col">15:00-15:30</td>
-      <td colspan="2" class="break">Coffee Break</td>
-      <td class="break">Coffee Break</td>
-      <td colspan="2" class="break">Coffee Break</td>
-      <td colspan="2" class="break">Coffee Break</td>
-    </tr>
-    <tr>
-      <td class="time-col">15:30-17:00</td>
-      <td class="industry-day-col">Industry Day</td>
-      <td class="workshops-col">Workshops</td>
-      <td>Research Session 3: ML and Analytics for Mobile and Traffic Data</td>
-      <td class="adv-seminar-col">Adv. Seminar 1</td>
-      <td class="adv-seminar-col">Adv. Seminar 2</td>
-      <td >Adv. Seminar 3</td>
-      <td> Doctoral Forum</td>
-    </tr>
-    <tr>
-      <td class="time-col">17:00-18:00</td>
-      <td colspan="2">Reception / Posters</td>
-      <td>Demos</td>
-      <td colspan="2">PhD Showcase</td>
-      <td colspan="2">Closing Remarks</td>
-    </tr>
-    <tr>
-      <td class="time-col">18:00-19:00</td>
-      <td colspan="2"></td>
-      <td></td>
-      <td colspan="2" rowspan="2" class="other-event">Banquet</td>
-      <td colspan="2"></td>
-    </tr>
-    <tr>
-      <td class="time-col">19:00-22:00</td>
-      <td colspan="2"></td>
-      <td></td>
-      <td colspan="2"></td>
-    </tr>
-  </tbody>
-</table>
+        <td class="time-col">15:00-15:30</td>
+        <td colspan="2" class="break">Coffee Break</td>
+        <td class="break">Coffee Break</td>
+        <td colspan="2" class="break">Coffee Break</td>
+        <td colspan="2" class="break">Coffee Break</td>
+      </tr>
+      <tr>
+        <td class="time-col">15:30-17:00</td>
+        <td class="industry-day-col">Industry Day</td>
+        <td class="workshops-col">Workshops</td>
+        <td>Research Session 3: ML and Analytics for Mobile and Traffic Data</td>
+        <td class="adv-seminar-col">Adv. Seminar 1</td>
+        <td class="adv-seminar-col">Adv. Seminar 2</td>
+        <td>Adv. Seminar 3</td>
+        <td> Doctoral Forum</td>
+      </tr>
+      <tr>
+        <td class="time-col">17:00-18:00</td>
+        <td colspan="2">Reception / Posters</td>
+        <td>Demos</td>
+        <td colspan="2">PhD Showcase</td>
+        <td colspan="2">Closing Remarks</td>
+      </tr>
+      <tr>
+        <td class="time-col">18:00-19:00</td>
+        <td colspan="2"></td>
+        <td></td>
+        <td colspan="2" rowspan="2" class="other-event">Banquet</td>
+        <td colspan="2"></td>
+      </tr>
+      <tr>
+        <td class="time-col">19:00-22:00</td>
+        <td colspan="2"></td>
+        <td></td>
+        <td colspan="2"></td>
+      </tr>
+    </tbody>
+  </table>
 
 </body>
+
 </html>
